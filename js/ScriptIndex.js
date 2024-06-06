@@ -22,7 +22,7 @@ function linkuj()
                 url = "../../html/sadrzaj/mars.html";
                 break;
             case "mesec":
-                url = "../html/sadrzaj/mesec.html";
+                url = "../../html/sadrzaj/mesec.html";
                 break;
             case "jupiter":
                 url = "../../html/sadrzaj/jupiter.html";
