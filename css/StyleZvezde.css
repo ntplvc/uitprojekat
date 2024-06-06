@@ -1,0 +1,43 @@
+@font-face { font-family: space-grotesk; src: url('../fontovi/SpaceGrotesk-Medium.otf'); }
+
+* {
+    font-family: space-grotesk;
+    color: white;
+} 
+
+body {
+	background-color: black;
+}
+
+#sadrzaj1{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+#povezano ul {
+    list-style-type: none;
+}
+
+#povezano li{
+    float: left;
+    padding: 16px;
+}
+
+li a{
+    color: orange;
+}
+
+li a:hover{
+    font-size: large;
+}
+
+#sadrzaj1 h1{
+    font-size: 20vh;
+}
+
+#sadrzaj1 div{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+

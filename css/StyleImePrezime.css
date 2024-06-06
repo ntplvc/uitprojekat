@@ -1,0 +1,48 @@
+body {
+    background-color: #000; 
+    font-family: 'Courier New', Courier, monospace; 
+    text-align: center; 
+}
+
+#centrirani_div {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 300px; 
+    height: 200px; 
+    background-color: #333; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#centrirani_div input {
+    color: black;
+    background-color: gray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+label {
+    color: white;
+}
+
+label, input, button {
+    font-size: 18px;
+    color: #fff; 
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: darkgreen;
+}

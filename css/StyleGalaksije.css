@@ -1,0 +1,41 @@
+
+@font-face { font-family: space-grotesk; src: url('../fontovi/SpaceGrotesk-Medium.otf'); }
+
+* {
+    font-family: space-grotesk;
+    color: white;
+} 
+
+body {
+	background-color: black;
+}
+
+#sadrzaj1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+#sadrzaj2 {
+    z-index: 1;
+}
+
+#sadrzaj1 h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    size: 50%;
+    font-size: 15vh;
+    text-align: center;
+    z-index: 1;
+}
+
+model-viewer{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+

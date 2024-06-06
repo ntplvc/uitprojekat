@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stablo</title>
+    <link rel="stylesheet" href="../../css/StyleIndex.css">
+</head>
+
+<body onload="ucitajIme()">
+    <script src="../../js/ScriptIndex.js"></script>
+
+    <div id="tekstDobrodoslice">
+        <h1 id="dobrodoslica"></h1>
+        <p>predstavljam ti <span id="mala">malu </span>knjigu <br> o <em>zanimljivim </em>svemirskim telima</p>
+        <button onclick="prikaziMeni()" >Klikni me ;)</button>
+    </div>
+
+    <div id="meni">
+        <p>Čita mi se o</p>
+        
+        <label for="dropdown">
+            <select id="dropdown" name="dropdwon" onchange="linkuj()">
+                <option value="mars">Mars</option>
+                <option value="mesec">Mesec</option>
+                <option value="jupiter">Jupiter</option>
+                <option value="zvezde">Zvezde</option>
+                <option value="magline">Magline</option>
+                <option value="crne-rupe">Crne rupe</option>
+                <option value="kvazari">Kvazari</option>
+                <option value="galaksije">Galaksije</option>
+            </select>
+        </label>
+    </div>
+
+</body>
+</html>

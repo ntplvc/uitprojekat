@@ -1,0 +1,36 @@
+@font-face { font-family: space-grotesk; src: url('../fontovi/SpaceGrotesk-Medium.otf'); }
+
+* {
+    font-family: space-grotesk;
+    color: white;
+} 
+
+body {
+	background-color: black;
+}
+
+#sadrzaj1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+#jupiter3d{
+    height: 75vh;
+    width: 100vh;
+}
+
+#h1Jupiter {
+    text-align: center;
+    font-size: 5vh;
+}
+
+#slike {
+    display: flex;
+    flex-direction: row;
+}
+
+#slike img {
+    width: 33%;
+}
