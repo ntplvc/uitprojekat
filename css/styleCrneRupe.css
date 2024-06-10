@@ -26,12 +26,25 @@ body {
     padding: 0px;
     margin: 0px;
 }
+
 #sadrzaj1 p{
     text-align: center;
     margin: 0;
     padding: 0;
 }
 
+#tekst {
+    text-align: center;
+}
+
+#sadrzaj2 > #slike {
+    display: flex;
+    flex-direction: row;
+}
+
+#slike img{
+    width: 30%;
+}
 table {
         border-collapse: collapse;
         width: 100%;
