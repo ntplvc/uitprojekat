@@ -8,6 +8,7 @@
 
 body {
 	background-color: black;
+    margin: 0;
 }
 
 #sadrzaj1 {
@@ -38,4 +39,8 @@ model-viewer{
     width: 100%;
     z-index: 0;
 }
+
+h3 {
+    text-align: center;
+  }
 
