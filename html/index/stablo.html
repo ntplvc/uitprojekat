@@ -11,7 +11,8 @@
 
     <div id="tekstDobrodoslice">
         <h1 id="dobrodoslica"></h1>
-        <p>predstavljam ti <span id="mala">malu </span>knjigu <br> o <em>zanimljivim </em>svemirskim telima</p>
+        <p id="tekst" style="margin-bottom: 0;">predstavljam ti <span id="mala">malu </span>knjigu <br> o <em>zanimljivim </em>svemirskim telima</p>
+        <p style="font-size: xx-small; margin-top: 0;">nova i poboljšana verzija!</p>
         <button onclick="prikaziMeni()" >Klikni me ;)</button>
     </div>
 
@@ -20,14 +21,15 @@
         
         <label for="dropdown">
             <select id="dropdown" name="dropdwon" onchange="linkuj()">
+                <option value="galaksije">Galaksije</option>
+                <option value="magline">Magline</option>
+                <option value="kvazari">Kvazari</option>
+                <option value="crne-rupe">Crne rupe</option>
+                <option value="zvezde">Zvezde</option>
+                <option value="jupiter">Jupiter</option>
                 <option value="mars">Mars</option>
                 <option value="mesec">Mesec</option>
-                <option value="jupiter">Jupiter</option>
-                <option value="zvezde">Zvezde</option>
-                <option value="magline">Magline</option>
-                <option value="crne-rupe">Crne rupe</option>
-                <option value="kvazari">Kvazari</option>
-                <option value="galaksije">Galaksije</option>
+
             </select>
         </label>
     </div>
